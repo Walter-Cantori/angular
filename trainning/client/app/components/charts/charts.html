@@ -1,0 +1,14 @@
+<h1>Charts Class</h1>
+
+<button ng-click="$ctrl.load()">New Load</button>
+<p>{{$ctrl.text}}</p>
+
+<div ng-repeat="result in $ctrl.data">
+    <div ng-repeat="divisions in result.divisions">
+        <div ng-repeat="division in divisions.rows">
+            <p>{{division.geography}} - {{division.division}}</p>
+        </div>
+    </div>
+
+    
+</div>

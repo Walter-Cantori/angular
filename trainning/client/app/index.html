@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+    <html ng-app="trainning"> 
+    <head>
+        <title>Configuration and Routing</title>         
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <base href='/'>
+    </head>
+<body>
+
+    <div id="main">
+        <header-component></header-component>
+        <div data-ui-view> </div>
+    </div>
+
+   
+    
+    <!--*** Dependencies *** -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    <script src="./config/app.js"></script>
+    <script src='./config/routes.js'></script>
+   
+
+    <!-- *** Components ***-->
+    <script src="./components/common/header/headerComponent.js"></script>
+    <script src="./components/home/home.js"></script>
+    <script src="./components/charts/charts.js"></script> 
+
+
+    <!-- *** Services ***-->
+    <script src="./components/charts/service/charts.js"></script>
+
+</body>
+</html>
+

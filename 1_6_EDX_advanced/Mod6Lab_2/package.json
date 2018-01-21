@@ -1,0 +1,22 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "karma start karma.conf.js",
+    "e2e-test": "protractor protractor.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "express": "^4.16.2",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "nodemon": "^1.12.1"
+  }
+}

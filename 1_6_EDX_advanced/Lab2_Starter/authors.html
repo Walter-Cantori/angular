@@ -1,0 +1,20 @@
+
+
+<table class='table'>
+    <th>
+        <tr>
+            <td>Name</td>
+            <td>Nationality</td>
+            <td>dates</td>
+            <td>Details</td>
+        </tr>
+    </th>
+    <tbody>
+        <tr ng-repeat="author in authors">
+            <td>{{author.name}}</td>
+            <td>{{author.nationality}}</td>
+            <td>{{author.dates}}</td>
+            <td><button data-ng-click="action( author )" class="btn btn-primary">Detail</button></td>
+        </tr>
+    </tbody>
+</table>
